@@ -1,0 +1,48 @@
+<html>
+   <link rel="stylesheet" href="/public/css/style.css">
+<!--/public/css/style.css kısmında eğer baştaki / işareti olmasa sıkıntı çıkabilir -->
+   <link rel="stylesheet" href="/public/css/bootstrap.min.css"/>
+   <link rel="stylesheet" type="text/css" href="/public/css/hastane.css">
+
+
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">HASTANE YÖNETİM SİSTEMİ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/HastaEkle">Hasta Ekle<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Giriş Yap</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Seçenekler
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">A1</a>
+              <a class="dropdown-item" href="#">A2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">A3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+   <%- body%>
+
+
+    
+   <script  src="/public/js/jquery-3.6.0.js"></script>
+   <script  src="/public/js/bootstrap.min.js"></script>
+
+</body>
+</html>
